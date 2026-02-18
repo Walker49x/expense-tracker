@@ -113,3 +113,41 @@ npm run dev
 cd client
 npm install
 npm run dev
+
+## 🌐 Live Demo
+
+🔗 Frontend (Vercel)  
+https://expense-tracker-orpin-rho.vercel.app
+
+🔗 Backend API (Render)  
+https://expense-tracker-n2ub.onrender.com/expenses
+
+---
+
+## ✨ Features
+
+- ➕ Add expenses with amount, category, description & date
+- 🔁 Idempotent expense creation using `Idempotency-Key`
+- 📊 Real-time total calculation
+- 🔍 Filter by category
+- ↕️ Sort by amount/date
+- 🌍 Fully deployed full-stack app
+- ⚡ Production-ready REST API
+- 🗄️ Prisma ORM with SQLite
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Axios
+
+### Backend
+- Node.js
+- Express
+- Prisma
+
+### Deployment
+- Vercel (Frontend)
+- Render (Backend)
