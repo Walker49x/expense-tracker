@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { v4 as uuid } from "uuid";
 
-const API = "http://localhost:5000";
+const API =
+  import.meta.env.VITE_API_URL ||
+  "http://localhost:5000";
 
 function App() {
   const [expenses, setExpenses] = useState([]);
